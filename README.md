@@ -1,25 +1,16 @@
 # WP Search Query Normalizer
 
-Plugin WordPress orienté SEO technique développé en PHP.
+## 🎯 Problème
+Sur un site WordPress, les utilisateurs peuvent rechercher un même sujet avec des mots différents, des fautes ou des variantes sémantiques. Cela peut réduire la pertinence des résultats et créer une expérience frustrante.
 
-Ce plugin corrige et normalise automatiquement certaines requêtes utilisateurs dans le moteur de recherche WordPress afin d’améliorer :
+## 💡 Solution
+WP Search Query Normalizer normalise automatiquement certaines requêtes de recherche afin de rediriger l’utilisateur vers le terme le plus pertinent.
 
-- l’expérience utilisateur (UX)
-- la pertinence des résultats
-- les redirections sémantiques SEO
-
-## Exemples de normalisation
-
-ratification -> dératisation  
-moustification -> démoustication  
-infection -> désinfection  
-
-## Fonctionnalités
-
-- Normalisation de requêtes
-- Redirections intelligentes
-- Mapping synonymes / fautes fréquentes
-- Amélioration UX recherche interne
+## 🚀 Bénéfices
+- Améliore la pertinence de la recherche interne
+- Réduit les recherches sans résultat
+- Optimise l’expérience utilisateur
+- Renforce la cohérence sémantique SEO
 
 ## Stack
 
