@@ -1,42 +1,73 @@
 # WP Search Query Normalizer
 
+Plugin WordPress orienté SEO technique permettant d'améliorer la pertinence de la recherche interne.
+
+---
+
 ## 🎯 Problème
-Sur un site WordPress, les utilisateurs peuvent rechercher un même sujet avec des mots différents, des fautes ou des variantes sémantiques. Cela peut réduire la pertinence des résultats et créer une expérience frustrante.
+
+Sur un site WordPress, les utilisateurs peuvent effectuer des recherches avec des variantes (fautes, synonymes, termes différents).
+
+Résultat :
+- recherches sans résultat
+- mauvaise pertinence des contenus affichés
+- expérience utilisateur dégradée
+
+---
 
 ## 💡 Solution
-WP Search Query Normalizer normalise automatiquement certaines requêtes de recherche afin de rediriger l’utilisateur vers le terme le plus pertinent.
+
+WP Search Query Normalizer intercepte les requêtes de recherche et les normalise automatiquement pour rediriger l’utilisateur vers le terme le plus pertinent.
+
+---
 
 ## 🚀 Bénéfices
-- Améliore la pertinence de la recherche interne
-- Réduit les recherches sans résultat
-- Optimise l’expérience utilisateur
-- Renforce la cohérence sémantique SEO
 
-## Stack
+- Amélioration de la pertinence des résultats
+- Réduction des recherches sans résultat
+- Meilleure expérience utilisateur (UX)
+- Cohérence sémantique SEO renforcée
+- Optimisation de la recherche interne WordPress
 
-- PHP  
-- WordPress Hooks  
-- SEO Technique  
+---
 
-## Installation
+## 🖼️ Aperçu
 
-1. Télécharger le plugin  
+![Recherche normalisée](assets/images/search-normalized.png)
+
+---
+
+## ⚙️ Fonctionnement
+
+Le plugin utilise le hook WordPress `template_redirect` pour intercepter les requêtes de recherche et appliquer des règles de normalisation définies.
+
+---
+
+## 🛠️ Stack
+
+- PHP
+- WordPress Hooks
+- SEO technique
+
+---
+
+## 📦 Installation
+
+1. Télécharger le plugin
 2. Copier le dossier dans :
 
 ```bash
 wp-content/plugins/wp-search-query-normalizer/
-```
 
-3. Activer le plugin depuis l’admin WordPress :
-
-```text
 Extensions > Activer
-```
 
-## Exemple d’usage
+### Avant
+![Avant](assets/images/search-before.png)
 
-Le plugin utilise `template_redirect` pour intercepter les recherches et rediriger automatiquement les termes définis.
+### Après
+![Après](assets/images/search-after.png)
 
-## Auteur
+
+👤 Auteur
 
 Sévérin OGAH
