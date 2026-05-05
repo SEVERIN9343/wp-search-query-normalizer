@@ -33,7 +33,11 @@ WP Search Query Normalizer intercepte les requêtes de recherche et les normalis
 
 ## 🖼️ Aperçu
 
-![Recherche normalisée](assets/images/search-normalized.png)
+### 🔎 Avant
+![Avant](assets/images/search-before.png)
+
+### ✅ Après
+![Après](assets/images/search-after.png)
 
 ---
 
@@ -60,13 +64,6 @@ Le plugin utilise le hook WordPress `template_redirect` pour intercepter les req
 wp-content/plugins/wp-search-query-normalizer/
 
 Extensions > Activer
-
-### Avant
-![Avant](assets/images/search-before.png)
-
-### Après
-![Après](assets/images/search-after.png)
-
 
 👤 Auteur
 
